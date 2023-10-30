@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #ca7d7d, #6464d0);
+}
+
+.quoteContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 50px;
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background: linear-gradient(to top, red, orange, yellow);
+}
+
+#quote {
+    display: flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+}
+
+#author {
+    display: flex;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 35px;
+    justify-content: center;
+}
+#button{
+    position: absolute;
+    text-align: center;
+    opacity: 0.5;
+    text-shadow: 1px 1px 0 black;
+    height: 50px; 
+    width: 120px; 
+    border-radius: 1.2rem;
+}
+.button{
+    display: inline-flex;
+    justify-content: center;
+    margin: 20px;
+}
